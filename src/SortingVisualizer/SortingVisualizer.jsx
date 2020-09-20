@@ -1,5 +1,5 @@
 import React from 'react';
-import {getMergeAnimations} from '../Algos/algos.js';
+import {getMergeAnimations} from '../Algos/mergesort.js';
 import './SortingVisualizer.css';
 
 // some global constants
