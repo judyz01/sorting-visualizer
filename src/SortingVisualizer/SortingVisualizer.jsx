@@ -90,7 +90,7 @@ export class SortingVisualizer extends React.Component {
         {/* <button onClick={() => this.quickSort()}> Quick Sort </button>
         <button onClick={() => this.heapSort()}> Heap Sort </button>
         <button onClick={() => this.bubbleSort()}> Bubble Sort </button> */}
-        
+
       </div>
     );
   }
