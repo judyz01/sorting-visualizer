@@ -2,7 +2,6 @@ export function getQuickSortAnimations(array) {
   let animations  = [];
   let auxillaryArray = array.slice();
   quickSort(auxillaryArray, 0, auxillaryArray.length - 1, animations);
-  // const javaScriptSortedArray = array.slice().sort((a, b) => a - b);
   array = auxillaryArray;
   return [animations, array];
 }
@@ -52,18 +51,6 @@ function swap(auxillaryArray, firstIndex, secondIndex) {
   auxillaryArray[firstIndex] = auxillaryArray[secondIndex];
   auxillaryArray[secondIndex] = temp;
 }
-
-// function arraysAreEqual(firstArray, secondArray) {
-//   if (firstArray.length !== secondArray.length) {
-//       return false;
-//   }
-//   for (let i = 0; i < firstArray.length; i++) {
-//     if (firstArray[i] !== secondArray[i]) {
-//       return false;
-//     }
-//   }
-//   return true;
-// }
 
 function randomIntFromInterval(min, max) {
   // min and max included
